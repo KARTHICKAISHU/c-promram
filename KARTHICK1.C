@@ -6,7 +6,6 @@ int a,b,c,d=0;
 printf("\n enter the number");
 scanf("%d",&a);
 b=a;
-
 while(b!=0)
 {
 c=b%10;
@@ -18,4 +17,5 @@ printf("\n the given number is palindrome");
 else
 printf("\n the number is not a palindrome");
 getch();
+return 0;
 }
