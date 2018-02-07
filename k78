@@ -1,0 +1,18 @@
+#include <stdio.h>  
+#include<conio.h>
+int main()
+{
+clrscr();    
+int n; 
+printf("Even numbers "); 
+scanf("%d",n);
+for(n = 1; n <= 20; n++)
+{
+if(n%2 == 0) 
+{ 
+printf("%d ", n);  
+} 
+}  
+getch();
+return 0;  
+} 
