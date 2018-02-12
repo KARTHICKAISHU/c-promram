@@ -1,5 +1,6 @@
 #include <stdio.h>
-int main(void) {
+int main(void) 
+{
 	int a,b,c,d,min1,min2,tmin1,tmin2,sub,result,result1;
 	scanf("%d %d",&a,&b);
 	scanf("%d %d",&c,&d);
@@ -17,5 +18,6 @@ int main(void) {
 	}
 	else
 	printf("%d",result1);
+	getch();
 	return 0;	
 	}
